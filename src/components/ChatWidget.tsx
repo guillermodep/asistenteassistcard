@@ -8,8 +8,9 @@ const ChatWidget = () => {
       src="https://app.contactship.ai/widgets/193cf0fa-6477-4951-99b5-cf2544c810cf/embed"
       style={{
         position: 'fixed',
-        bottom: '2px',
-        right: '2px',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
         height: '600px',
         width: '400px',
         border: 'none',
